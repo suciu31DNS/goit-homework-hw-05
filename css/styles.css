@@ -67,13 +67,14 @@ h2 {
   overflow: hidden;
 }
 
-.link-content:hover .pharagraf-content {
+.image-container:hover .pharagraf-content {
   transform: translateY(0%);
 }
 
-.link-content:focus .pharagraf-content {
+.image-container:focus .pharagraf-content {
   transform: translateY(0%);
 }
+
 
 .content-section-container:hover,
 .content-section-container:focus {
