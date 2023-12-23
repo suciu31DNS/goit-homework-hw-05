@@ -67,15 +67,15 @@ h2 {
   overflow: hidden;
 }
 
-.image-container:hover .pharagraf-content {
-  transform: translateY(0%);
-
-}
-
+.image-container:hover,
 .image-container:focus .pharagraf-content {
   transform: translateY(0%);
-
 }
+
+/* .image-container:focus .pharagraf-content {
+  transform: translateY(0%);
+
+} */
 
 .content-section-container:hover,
 .content-section-container:focus {
@@ -86,7 +86,7 @@ h2 {
 .link-content {
   display: block;
   text-decoration: none;
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0, 0.2, 1);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -96,7 +96,7 @@ h2 {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--white-color);
+  color: var(--nu-color);
   padding: 40px 32px;
   background-color: var(--logo-button-blue-color);
   width: 100%;
@@ -824,7 +824,7 @@ h2 {
   border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 0;
   cursor: pointer;
-  transition: background-colour 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+  transition: background-colour 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
